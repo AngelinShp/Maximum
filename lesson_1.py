@@ -1,17 +1,17 @@
 #N=4, M=5, ИТОГО: 20 повторений
 #Сложность: O(N*M)
 def strcounter(stroka):
-    for symb in set(stroka): #4 значения - значит - 4 повторения
+    for sym in set(stroka): #4 значения - значит - 4 повторения
         counter=0
-        for sub_symb in stroka: #5 значений в stroka - 5 повт.
-            if symb==sub_symb:
+        for sub_sym in stroka: #5 значений в stroka - 5 повт.
+            if sym==sub_sym:
                 counter+=1
-        print(symb, counter)
+        print(sym, counter)
 #Переделаем в Сложность: O(N)
 def strcounter_new(stroka):
     syms_counter={}
-    for symb in stroka:
-        syms_counter[symb]=syms_counter.get(symb, 0)+1
+    for sym in stroka:
+        syms_counter[sym]=syms_counter.get(sym, 0)+1
     print(syms_counter)
 
 stroka='aabcd'
@@ -19,3 +19,18 @@ print(set(stroka))
 strcounter(stroka)
 
 strcounter_new(stroka)
+
+#ДЗ:
+# def is_palindrome(string):
+#     return string == string[::-1]
+#
+# print(is_palindrome('лепсспел'))
+
+x = input("введите слово: ")
+def palindromSsss(x):
+    return x[::-1] == x
+    while True:
+        if palindromSsss(x):
+            print(f"{x} 'это палиндромом'")
+        else:
+            print('это не палиндромом')
