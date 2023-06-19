@@ -1,2 +1,24 @@
 h1 { background : red;
 }
+
+.par-1 {
+font-size: 14pt;
+color: green;
+}
+
+.par-2
+{
+border: 10px solid yellow;
+border-radius: 10% 10%;
+margin-bottom: 60px;
+padding-bottom: 30px;
+padding-left: 10px;
+}
+
+.par-3
+{
+border: dotted;
+font-family: Arial;
+font-weight: 900;
+}
+
