@@ -21,10 +21,10 @@ strcounter(stroka)
 strcounter_new(stroka)
 
 #ДЗ:
-# def is_palindrome(string):
-#     return string == string[::-1]
-#
-# print(is_palindrome('лепсспел'))
+def is_palindrome(string):
+    return string == string[::-1]
+
+print(is_palindrome('лепсспел'))
 
 x = input("введите слово: ")
 def palindromSsss(x):
