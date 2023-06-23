@@ -26,5 +26,5 @@ def is_palindrome(string):
 
 print(is_palindrome('лепсспел'))
 #
-#
+#dsgdfhd
 
