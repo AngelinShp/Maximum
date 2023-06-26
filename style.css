@@ -18,3 +18,10 @@ h1
     margin-bottom: 60px;
     padding-left: 20px;
 }
+.par-3
+{
+    font-style: italic;
+    font-size: 24px;
+    text-shadow: green 4px 2px 2px;
+    text-align: center;
+}
