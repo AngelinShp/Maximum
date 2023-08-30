@@ -42,10 +42,8 @@ def register(request):
             return redirect(reverse('profile'))
     else:
         form = ExtendedUserCreationForm()
-
     context = {
         'form': form
     }
-
     return render(request, 'app_auth/register.html', context)
 
