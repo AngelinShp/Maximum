@@ -22,6 +22,7 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include('advert.urls')),
+    path("myauth/", include('app_auth.urls')),
 ]
 
 if settings.DEBUG:
